@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Cities - AeroNib Photos</title>
+        <link rel="stylesheet" href="../styles.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/photoswipe@5/dist/photoswipe.css"
+        />
+    </head>
+    <body>
+        <header>
+            <div class="logo-container">
+                <img src="../logo.svg" alt="AeroNib Logo" class="logo" />
+            </div>
+            <nav class="menu-bar">
+                <a href="../index.html" class="menu-item">Home</a>
+                <span class="menu-separator">|</span>
+                <a href="index.html" class="menu-item">Cities</a>
+                <span class="menu-separator">|</span>
+                <a href="#" class="menu-item">TBD</a>
+                <span class="menu-separator">|</span>
+                <a href="#" class="menu-item">TBD</a>
+            </nav>
+        </header>
+
+        <main>
+            <h1>Cities</h1>
+
+            <div class="gallery" id="gallery">
+                <a
+                    href="images/20180822-022838-45fc.jpg"
+                    data-pswp-width="2048"
+                    data-pswp-height="1499"
+                    target="_blank"
+                >
+                    <img
+                        src="thumbs/20180822-022838-45fc.jpg"
+                        alt="City photo"
+                    />
+                </a>
+
+                <a
+                    href="images/20180821-023755-8d30.jpg"
+                    data-pswp-width="2048"
+                    data-pswp-height="1351"
+                    target="_blank"
+                >
+                    <img
+                        src="thumbs/20180821-023755-8d30.jpg"
+                        alt="City photo"
+                    />
+                </a>
+
+                <a
+                    href="images/20180430-000905-bb9c.jpg"
+                    data-pswp-width="2048"
+                    data-pswp-height="1340"
+                    target="_blank"
+                >
+                    <img
+                        src="thumbs/20180430-000905-bb9c.jpg"
+                        alt="City photo"
+                    />
+                </a>
+
+                <a
+                    href="images/20180430-000903-c427.jpg"
+                    data-pswp-width="2048"
+                    data-pswp-height="1365"
+                    target="_blank"
+                >
+                    <img
+                        src="thumbs/20180430-000903-c427.jpg"
+                        alt="City photo"
+                    />
+                </a>
+
+                <a
+                    href="images/20180430-000856-97ef.jpg"
+                    data-pswp-width="2048"
+                    data-pswp-height="1458"
+                    target="_blank"
+                >
+                    <img
+                        src="thumbs/20180430-000856-97ef.jpg"
+                        alt="City photo"
+                    />
+                </a>
+
+                <a
+                    href="images/20180430-000816-c792.jpg"
+                    data-pswp-width="2048"
+                    data-pswp-height="1365"
+                    target="_blank"
+                >
+                    <img
+                        src="thumbs/20180430-000816-c792.jpg"
+                        alt="City photo"
+                    />
+                </a>
+
+                <a
+                    href="images/20180430-000812-687a.jpg"
+                    data-pswp-width="2048"
+                    data-pswp-height="1405"
+                    target="_blank"
+                >
+                    <img
+                        src="thumbs/20180430-000812-687a.jpg"
+                        alt="City photo"
+                    />
+                </a>
+
+                <a
+                    href="images/20180427-022716-a656.jpg"
+                    data-pswp-width="2048"
+                    data-pswp-height="1365"
+                    target="_blank"
+                >
+                    <img
+                        src="thumbs/20180427-022716-a656.jpg"
+                        alt="City photo"
+                    />
+                </a>
+            </div>
+        </main>
+
+        <script type="module">
+            import PhotoSwipeLightbox from "https://cdn.jsdelivr.net/npm/photoswipe@5/dist/photoswipe-lightbox.esm.js";
+
+            const lightbox = new PhotoSwipeLightbox({
+                gallery: "#gallery",
+                children: "a",
+                pswpModule: () =>
+                    import("https://cdn.jsdelivr.net/npm/photoswipe@5/dist/photoswipe.esm.js"),
+            });
+
+            lightbox.init();
+        </script>
+    </body>
+</html>

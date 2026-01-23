@@ -54,9 +54,37 @@ header {
 
 /* Main Content */
 main {
-    max-width: 1200px;
+    max-width: 1500px;
     margin: 0 auto;
     padding: 40px 20px;
+    text-align: center;
+}
+
+/* Gallery Grid Styles */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.gallery a {
+    display: block;
+    height: 200px;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.gallery a img {
+    height: 100%;
+    width: auto;
+    display: block;
+    object-fit: cover;
+}
+
+.gallery a:hover img {
+    opacity: 0.9;
 }
 
 /* Mobile Responsiveness */

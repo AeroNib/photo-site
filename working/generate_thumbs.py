@@ -14,7 +14,7 @@ from pathlib import Path
 from PIL import Image
 
 # Configuration
-THUMBNAIL_HEIGHT = 250
+THUMBNAIL_HEIGHT = 200
 IMAGES_DIR = Path(__file__).parent / "images"
 THUMBS_DIR = Path(__file__).parent / "thumbs"
 
