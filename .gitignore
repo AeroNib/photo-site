@@ -1,0 +1,7 @@
+CLAUDE.md
+
+# Working directory - ignore image contents but track folders and script
+working/images/*
+working/thumbs/*
+!working/images/.gitkeep
+!working/thumbs/.gitkeep
