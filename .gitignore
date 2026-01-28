@@ -1,7 +1,9 @@
 CLAUDE.md
 
 # Working directory - ignore image contents but track folders and script
-working/images/*
-working/thumbs/*
-!working/images/.gitkeep
-!working/thumbs/.gitkeep
+working/images_original/*
+working/images_resized/*
+working/images_thumbs/*
+!working/images_original/.gitkeep
+!working/images_resized/.gitkeep
+!working/images_thumbs/.gitkeep
