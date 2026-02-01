@@ -15,11 +15,11 @@
                 <img src="${basePath}logo.svg" alt="AeroNib Logo" class="logo" />
             </div>
             <nav class="menu-bar">
-                <a href="${basePath}index.html" class="menu-item">Home</a>
+                <a href="${basePath}" class="menu-item">Home</a>
                 <span class="menu-separator">|</span>
-                <a href="${basePath}walkabout/index.html" class="menu-item">Walkabout</a>
+                <a href="${basePath}walkabout" class="menu-item">Walkabout</a>
                 <span class="menu-separator">|</span>
-                <a href="${basePath}travel/index.html" class="menu-item">Travel</a>
+                <a href="${basePath}travel" class="menu-item">Travel</a>
             </nav>
         </header>
     `;
