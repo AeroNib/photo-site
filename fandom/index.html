@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Conventions and Furry - AeroNib Photos</title>
+        <link rel="stylesheet" href="../styles.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/photoswipe@5/dist/photoswipe.css"
+        />
+    </head>
+    <body>
+        <script src="../header.js"></script>
+
+        <main>
+            <h1>Conventions and Furry</h1>
+
+            <div class="gallery" id="gallery">
+                <a
+                    href="images/20250823-001551-3b18.jpg"
+                    data-pswp-width="3000"
+                    data-pswp-height="2000"
+                    target="_blank"
+                >
+                    <img
+                        src="thumbs/20250823-001551-3b18.jpg"
+                        alt=""
+                    />
+                </a>
+
+                <a
+                    href="images/20250823-000329-525c.jpg"
+                    data-pswp-width="3000"
+                    data-pswp-height="2000"
+                    target="_blank"
+                >
+                    <img
+                        src="thumbs/20250823-000329-525c.jpg"
+                        alt=""
+                    />
+                </a>
+
+                <a
+                    href="images/20250822-220301-fe13.jpg"
+                    data-pswp-width="3000"
+                    data-pswp-height="2000"
+                    target="_blank"
+                >
+                    <img
+                        src="thumbs/20250822-220301-fe13.jpg"
+                        alt=""
+                    />
+                </a>
+
+                <a
+                    href="images/20220108-150033-38xy.jpg"
+                    data-pswp-width="2048"
+                    data-pswp-height="1366"
+                    target="_blank"
+                >
+                    <img
+                        src="thumbs/20220108-150033-38xy.jpg"
+                        alt=""
+                    />
+                </a>
+
+                <a
+                    href="images/20220108-150031-34s5.jpg"
+                    data-pswp-width="2048"
+                    data-pswp-height="1366"
+                    target="_blank"
+                >
+                    <img
+                        src="thumbs/20220108-150031-34s5.jpg"
+                        alt=""
+                    />
+                </a>
+
+                <a
+                    href="images/20220108-150014-kxs4.jpg"
+                    data-pswp-width="2048"
+                    data-pswp-height="1366"
+                    target="_blank"
+                >
+                    <img
+                        src="thumbs/20220108-150014-kxs4.jpg"
+                        alt=""
+                    />
+                </a>
+
+                <a
+                    href="images/20220108-150012-cb8s.jpg"
+                    data-pswp-width="2048"
+                    data-pswp-height="1366"
+                    target="_blank"
+                >
+                    <img
+                        src="thumbs/20220108-150012-cb8s.jpg"
+                        alt=""
+                    />
+                </a>
+
+                <a
+                    href="images/20220106-140035-93ks.jpg"
+                    data-pswp-width="2048"
+                    data-pswp-height="1366"
+                    target="_blank"
+                >
+                    <img
+                        src="thumbs/20220106-140035-93ks.jpg"
+                        alt=""
+                    />
+                </a>
+
+                <a
+                    href="images/20220106-140018-930f.jpg"
+                    data-pswp-width="2048"
+                    data-pswp-height="1366"
+                    target="_blank"
+                >
+                    <img
+                        src="thumbs/20220106-140018-930f.jpg"
+                        alt=""
+                    />
+                </a>
+
+                <a
+                    href="images/20220106-140011-8vkd.jpg"
+                    data-pswp-width="2048"
+                    data-pswp-height="1365"
+                    target="_blank"
+                >
+                    <img
+                        src="thumbs/20220106-140011-8vkd.jpg"
+                        alt=""
+                    />
+                </a>
+
+                <a
+                    href="images/20220106-140001-s9zd.jpg"
+                    data-pswp-width="2048"
+                    data-pswp-height="1366"
+                    target="_blank"
+                >
+                    <img
+                        src="thumbs/20220106-140001-s9zd.jpg"
+                        alt=""
+                    />
+                </a>
+            </div>
+        </main>
+
+        <script type="module">
+            import PhotoSwipeLightbox from "https://cdn.jsdelivr.net/npm/photoswipe@5/dist/photoswipe-lightbox.esm.js";
+
+            const lightbox = new PhotoSwipeLightbox({
+                gallery: "#gallery",
+                children: "a",
+                pswpModule: () =>
+                    import("https://cdn.jsdelivr.net/npm/photoswipe@5/dist/photoswipe.esm.js"),
+            });
+
+            lightbox.init();
+        </script>
+    </body>
+</html>
