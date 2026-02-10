@@ -22,6 +22,8 @@
                 <a href="${basePath}travel" class="menu-item">Travel</a>
                 <span class="menu-separator">|</span>
                 <a href="${basePath}nature" class="menu-item">Nature</a>
+                <span class="menu-separator">|</span>
+                <a href="${basePath}fandom" class="menu-item">Conventions & Furry</a>
             </nav>
         </header>
     `;
