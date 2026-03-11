@@ -91,7 +91,25 @@ main {
 }
 
 .gallery a:hover img {
-    opacity: 0.9;
+    opacity: 0.8;
+}
+
+/* Text overlay for gallery link thumbnails */
+.gallery a.gallery-link {
+    position: relative;
+}
+
+.thumbnail-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.9);
+    pointer-events: none;
+    background-color: #d0d0d099;
 }
 
 /* Mobile Responsiveness */
