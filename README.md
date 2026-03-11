@@ -31,3 +31,7 @@ The gallery collection will display image thumbnails in the order listed in `ind
 ## Adding, Removing, and Renaming Gallery Collections
 
 Gallery collections are subfolders that contain an `index.html`, an `images` folder, and a `thumbs` folder. The gallery collection folder can be given any useful, short name. These gallery collections are accessed by users from the website navigation bar, which must be manually edited in `header.js` if adding or removing gallery collections. The collection name displayed in the nav bar is controlled in `header.js`, and the title text displayed when viewing a gallery collection is controlled in the collection's `index.html`.
+
+## Development Testing
+
+To test with a local clone of the repository, run ./serve.sh to start a Python web server.
